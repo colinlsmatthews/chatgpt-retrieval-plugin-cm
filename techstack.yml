@@ -1,0 +1,518 @@
+repo_name: colinlsmatthews/chatgpt-retrieval-plugin-cm
+report_id: ae8ccadc90493ae411f9954832c2c500
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-11T20:37:11+00:00'
+requested_by: colinlsmatthews
+provider: github
+branch: main
+detected_tools_count: 38
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/providers/supabase/migrations/20230414142107_init_pg_vector.sql
+  detection_source: examples/providers/supabase/migrations/20230414142107_init_pg_vector.sql
+  last_updated_by: egor
+  last_updated_on: 2023-05-15 15:34:02.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.92.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/tests/datastore/providers/weaviate/docker-compose.yml
+  detection_source: tests/datastore/providers/weaviate/docker-compose.yml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Chroma
+  description: The AI-native open-source embedding database
+  website_url: https://www.trychroma.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Anton Troynikov
+  last_updated_on: 2023-06-23 23:37:46.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: Milvus
+  description: An Open Source Vector Similarity Search Engine
+  website_url: https://milvus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Vector Databases
+  image_url: https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: examples/docker/redis/docker-compose.yml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: etcd
+  description: A distributed consistent key-value store for shared configuration and
+    service discovery
+  website_url: https://github.com/coreos/etcd
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1721/etcd.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/milvus/docker-compose.yaml
+  detection_source: examples/docker/milvus/docker-compose.yaml
+  last_updated_by: Filip Haltmayer
+  last_updated_on: 2023-03-30 19:08:54.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Simon Suo
+  last_updated_on: 2023-04-05 16:46:49.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.7
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Pablo Castro
+  last_updated_on: 2023-05-12 01:11:26.000000000 Z
+- name: Qdrant
+  description: Open-source Vector Search Engine and Vector Database written in Rust
+  website_url: https://qdrant.tech/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48298/default_d234d62c02c7862d4384fbbf0bcbb94ff723df73.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/examples/docker/qdrant/docker-compose.yaml
+  detection_source: examples/docker/qdrant/docker-compose.yaml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Weaviate
+  description: An open-source vector search engine
+  website_url: https://weaviate.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48640/default_e449cca14683994294f8d6a9d2d22791e7e8448b.jpg
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/tests/datastore/providers/weaviate/docker-compose.yml
+  detection_source: tests/datastore/providers/weaviate/docker-compose.yml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+  vulnerabilities:
+  - name: pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by
+      a character
+    cve_id: CVE-2023-36464
+    cve_url: https://github.com/advisories/GHSA-4vvm-4w3v-6mr8
+    detected_date: Jul 1
+    severity: moderate
+    first_patched:
+- name: arrow
+  description: Better dates &amp; times for Python
+  package_url: https://pypi.org/project/arrow
+  version: 1.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.3.25
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Anton Troynikov
+  last_updated_on: 2023-06-23 23:37:46.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.23.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Pablo Castro
+  last_updated_on: 2023-05-12 01:11:26.000000000 Z
+- name: loguru
+  description: Python logging made
+  package_url: https://pypi.org/project/loguru
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20043/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Raghu
+  last_updated_on: 2023-05-31 21:13:12.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/project/numpy
+  version: 1.24.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-24 01:22:58.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: chris-lindstrom
+  last_updated_on: 2023-05-02 15:39:47.000000000 Z
+- name: pgvector
+  description: Pgvector support for Python
+  package_url: https://pypi.org/project/pgvector
+  version: 0.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: egor
+  last_updated_on: 2023-05-15 15:34:02.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.9.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Richy Wang
+  last_updated_on: 2023-05-30 16:08:09.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: DvirDukhan
+  last_updated_on: 2023-04-11 16:05:26.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.20.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: DvirDukhan
+  last_updated_on: 2023-04-11 16:05:26.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: DvirDukhan
+  last_updated_on: 2023-04-11 16:05:26.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 0.21.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Pablo Castro
+  last_updated_on: 2023-05-12 01:11:26.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.20.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/colinlsmatthews/chatgpt-retrieval-plugin-cm/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
